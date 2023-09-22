@@ -1,0 +1,28 @@
+- Initial code (7600 missing files)
+- Changed names of the zip files to avoid issues with extracting (1800 missing files)
+    - Ant: 8
+    - Camel: 67
+    - Ivy: 704
+    - JEdit: 541
+    - Log4j: 32
+    - Lucene: 32
+    - poi: 16
+    - Synapse: 0
+    - Velocity: 1
+    - Xalan: 108
+    - Xerces: 297
+- Found that jedit version 4.3 was never extracted by our script
+    - JEdit: 541 -> 54
+- We saw that xerces version 1.4.4 had most missing files (257 / 589) Major error in Camel is because of scala files (54)
+- Implemented new unpromissing file finder + scala update (1124 missing files)
+    - ant: 8 -> 7
+    - camel: 67 -> 13
+    - Ivy: 704 -> 704
+    - JEdit: 54 -> 54
+    - Log4j: 32 -> 32
+    - Lucene: 32 -> 32
+    - poi: 16 -> 16
+    - Synapse: 0 -> 0
+    - Velocity: 1 -> 1
+    - Xalan: 108 -> 85
+    - Xerces: 297 -> 180

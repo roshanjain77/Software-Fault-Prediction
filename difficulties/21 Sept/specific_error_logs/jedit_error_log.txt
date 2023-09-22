@@ -1,0 +1,1087 @@
+2023-09-22 02:41:37,662 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleTableModel.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,662 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,663 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/WindowTableModel.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,663 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,665 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/CharUnit.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,665 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,666 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelectorDialog.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,666 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,667 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ColorTableModel.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,667 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,668 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ContextAddDialog.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,668 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,669 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CheckBoxListModel.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,669 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,671 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarAddDialog.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,671 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,672 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AbbrevsModel.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,672 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,674 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleEditor.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,674 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,677 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/Abbrev.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,677 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,679 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/IntPair.java of ../data/txt/jedit/jedit-3.2.csv
+2023-09-22 02:41:37,679 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,694 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 12
+2023-09-22 02:41:37,866 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleTableModel.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,866 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,866 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AbbrevsModel.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,866 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,867 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/WindowTableModel.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,867 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,870 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelectorDialog.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,870 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,872 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/IntPair.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,872 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,872 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarEditDialog.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,872 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,874 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleEditor.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,874 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,877 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserColorsModel.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,877 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,880 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ContextAddDialog.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,880 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,880 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/Abbrev.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,880 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,881 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CheckBoxListModel.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,881 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,881 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/CharUnit.java of ../data/txt/jedit/jedit-4.1.csv
+2023-09-22 02:41:37,881 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:37,901 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 12
+2023-09-22 02:41:38,080 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/Abbrev.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,080 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,082 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/WindowTableModel.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,082 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,084 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleEditor.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,084 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,088 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleTableModel.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,088 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,090 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarEditDialog.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,090 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,094 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserColorsModel.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,094 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CheckBoxListModel.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/CharUnit.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelectorDialog.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,099 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,100 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AbbrevsModel.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,100 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,102 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ContextAddDialog.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,102 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,102 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/IntPair.java of ../data/txt/jedit/jedit-4.2.csv
+2023-09-22 02:41:38,102 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,116 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 12
+2023-09-22 02:41:38,282 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleEditor.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,282 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,284 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ContextAddDialog.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,284 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,285 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AbbrevsModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,285 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,285 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/WindowTableModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,285 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,286 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ColorTableModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,286 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,295 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StyleTableModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,295 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,295 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserColorsModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,296 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,298 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/Abbrev.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,298 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,298 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CheckBoxListModel.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,298 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,299 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/CharUnit.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,299 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,299 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelectorDialog.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,299 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,300 - root - prepare_dataset.py - 81 - ERROR - Failed to find gnu/regexp/IntPair.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,301 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,301 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarEditDialog.java of ../data/txt/jedit/jedit-4.0.csv
+2023-09-22 02:41:38,301 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,314 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 13
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/BufferAutosaveRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/CommandLineReader.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferset/BufferSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/GeneralOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/XMLUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ActionContext.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ClassGenerator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,497 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/Gutter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHArguments.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Buffer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHThrowStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/collection/CollectionIterator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/FoldHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/StringList.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/GlobVFSFileFilter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpViewerInterface.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchFolderNode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/BufferIORequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,498 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHFormalComment.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/visitors/JEditVisitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ClassGeneratorUtil.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindowContainer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/DefaultFoldHandlerProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/VFSPathSelected.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Modifiers.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ReturnControl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferset/BufferSetAdapter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/PatternSearchMatcher.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/VFS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,499 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/SquareFoldPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Token.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ListModelEditor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/LineManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/PositionManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/NameSpace.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/VFSFileNameField.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Interpreter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/BufferLoadRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/BufferSaveRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,500 - root - prepare_dataset.py - 81 - ERROR - Failed to find com/microstar/xml/XmlHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/SelectionManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/ManagePanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/JEditHistoryModelSaver.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/HistoryText.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockingLayoutManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EditPlugin.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/VFSFile.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,501 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/Log.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/DummyTokenHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserColorsModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/IndentAction.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/TextAreaDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHWhileStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/JEditEmbeddedTextArea.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,502 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/input/DefaultInputHandlerProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/PluginDetailPanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHUnaryExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BshIterator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/SyntaxHiliteOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHFormalParameters.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/SearchBar.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/PerspectiveManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/IOUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/InputMethodSupport.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/AnimatedIcon.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,503 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/input/AbstractInputHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/BeanShell.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHLiteral.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/SyntaxUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/Label.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/Widget.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EditServer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/WorkThreadProgressListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchOperationNode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,504 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHMethodInvocation.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/Encoding.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ExtendedGridLayout.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHTypedVariableDeclaration.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/AntiAlias.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/SearchFileSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchFileNode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaException.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,505 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/PluginJAR.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/RecentFilesProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/MirrorList.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHReturnType.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Reflect.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/ErrorsWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ViewOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/AbbrevEditor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,506 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/ClassWriter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/InstallPanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/print/BufferPrinter1_4.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindow.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Parser.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHAssignment.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ContextOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,507 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/UrlVFS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Remote.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/PropertiesChanged.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/AbstractOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Abbrevs.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ClassIdentifier.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/CloseBracketIndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,508 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaDropHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelector.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/RecentDirectoriesProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/AutoDetection.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/SearchAndReplace.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/KeyEventTranslator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHPrimarySuffix.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/SyntaxStyle.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,509 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/GutterOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ServiceManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/LHS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/SearchSettingsChanged.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/PropertiesChanging.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferUndoListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BshClassManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,510 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/ReverseCharSequence.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/EditorStarted.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/JEditTextArea.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EBComponent.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/PluginManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/FoldPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Variable.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHIfStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BlockNameSpace.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,511 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferset/BufferSetListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/input/InputHandlerProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/SegmentBuffer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/classpath/BshClassLoader.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/DynamicMenuProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/SelectionLengthWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/WhitespaceRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,512 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/AllBufferSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/EncodingDetector.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/UndoManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/BufferSwitcher.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/ClockWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHArrayInitializer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditKillRing.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockingFrameworkProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,513 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/EnhancedMenu.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/PluginUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/print/BufferPrintable.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/EditAbbrevDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/FavoritesVFS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/ModeWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/StringUtil.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,514 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ToolBarManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EBPlugin.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/BeanShellFacade.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/MiscUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/MarkerViewer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHForStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Debug.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/MouseActionsProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,515 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/JavaCharStream.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextArea.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/HistoryModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/visitors/JEditVisitorAdapter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/PasteFromListDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHVariableDeclarator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/Type.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,516 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/RegisterChanged.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/TextAreaOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/VFSDirectoryEntryTableModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/BufferChanging.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ScrollLineCount.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/FoldWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/CharsetEncoding.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableLayout.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,517 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/IconTheme.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/CodeWriter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/PluginListHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/StatusBarOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/EvalError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ChunkCache.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/IntegerArray.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHFormalParameter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,518 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/PluginOptions.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/FileVFS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/RegistersListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/SettingsReloader.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/visitors/SaveCaretInfoVisitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpSearchPanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/LineSepWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ExtensionManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,519 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/MarkersProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FilteredListModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/Roster.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/XThis.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditMode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/AddAbbrevDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/EncodingServer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Node.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 81 - ERROR - Failed to find com/microstar/xml/XmlParser.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,520 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ClassPathException.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/OptionGroup.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/DelayedEvalBshMethod.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/SettingsXML.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ErrorListDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CheckBoxListModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,521 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/SplashScreen.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/BufferHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/BrowserCommandsMenu.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Autosave.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FontSelectorDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ScrollLayout.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/PrintOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,522 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/WorkThread.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/RangeMap.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/BufferInsertRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/OpenBracketIndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BufferOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Macros.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/TokenMarker.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaExtension.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,523 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpViewer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHStatementExpressionList.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/HistoryTextArea.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/MenuItemTextComparator.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ParserTokenManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/BracketIndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/GlobalOptions.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/SearchMatcher.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,524 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/ViewUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHAllocationExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/TipOfTheDay.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/OperatingSystem.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/EditorExitRequested.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/BrowserIORequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ColorWellButton.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ScrollListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,525 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHTernaryExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHBinaryExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ActionListHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHEnhancedForStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BshMethod.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/Item.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHSwitchStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,526 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHTryStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/IndentRuleFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Capabilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/SelectLineRange.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ModeCatalogHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/HistoryModelSaver.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Primitive.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/PropertiesBean.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/TargetError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,527 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/ToolTipLabel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHCastExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/PluginManagerOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/BufferOptions.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/proto/jeditresource/Handler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ShapedFoldPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,528 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHBlock.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/StyleEditor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/StatusBar.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CompletionPopup.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Mode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferio/MarkersSaveRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditActionSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpIndex.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,529 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/JEditBuffer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/FirewallOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/Edge.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/View.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/EncodingWithBOM.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ContextAddDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/XMLEncodingDetector.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,530 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/UtilTargetError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/MemoryStatusWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ExtendedGridLayoutConstraints.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHImportDeclaration.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpHistoryModelListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHMethodDeclaration.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ParserTreeConstants.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/GutterPopupHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,531 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/OptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/WorkRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/PluginsProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/ParserRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/BrowserListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/NameSource.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ShortcutsOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/ContentManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/TextUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,532 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindowManagerProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ActionBar.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/VFSBrowser.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/DockingOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/RegexpIndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/WindowTableModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JARClassLoader.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/EditingOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,533 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/GrabKeyDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/GUIUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/classpath/DiscreteFilesClassLoader.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/KeyEventWorkaround.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EditPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FilesChangedDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/CurrentBufferSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHArrayDimensions.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,534 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindowManagerImpl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/AboutDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/collection/CollectionManagerImpl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/This.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/KillRing.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/FavoritesProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/UtilEvalError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,535 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/StructureMatcher.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EditAction.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/DirectoryProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaBorder.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/FileRootsVFS.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/ParserRuleSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HistoryButton.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/TokenMgrError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,536 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchRequest.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/BufferUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/ClassVisitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/CodeVisitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaTransferHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/Chunk.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/BufferHistory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/classpath/BshClassPath.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,537 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/MouseActions.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/ModeProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/SegmentCharSequence.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindowManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ClassGeneratorImpl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditRegisterSaver.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/EnhancedButton.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/print/BufferPrinter1_3.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,538 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/ReloadWithEncodingProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/WorkThreadPool.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHClassDeclaration.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CompleteWord.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/EnhancedDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHPrimitiveType.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/ByteVector.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditRegistersListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,539 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/ThreadAbortMonitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/RegisterViewer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ReflectError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FloatingWindowContainer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/BufferListSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/DefaultTokenHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bufferset/BufferSetManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/Token.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,540 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TextAreaPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/StandardUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserColorsOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EditBus.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/EditorExiting.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/SyntaxUtilities.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/RolloverButton.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/ShortcutPrefixActiveEvent.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,541 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/BeanShellAction.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ServiceListHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferAdapter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/jEdit.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Types.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/TriangleFoldPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,542 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/EBMessage.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AbbrevsOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/CloseDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/EncodingWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ReflectManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/JThis.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/SearchDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/DisplayManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,543 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/EditPaneUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpTOCPanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/NumericTextField.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/DeepIndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/Name.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/MacrosProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FilteredTableModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,544 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/TokenHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/classpath/ClassManagerImpl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/AbstractContextOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/StatusListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchTreeNodeCallback.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/VFSFileChooserDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditActionContext.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/OptionsDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,545 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/EnhancedCheckBoxMenuItem.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/ExplicitFoldHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHPrimaryExpression.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DefaultFocusComponent.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/JJTParserState.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHType.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/JCheckBoxList.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/CollectionManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,546 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/BoyerMooreSearchMatcher.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/proto/jeditresource/PluginResURLConnection.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/BrowserOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/Anchor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ConsoleInterface.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Registers.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/DockableWindowUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/DirectoryListSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHSwitchLabel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,547 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/FileCellRenderer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ExternalNameSpace.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/CallStack.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/KeywordMap.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DefaultInputHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHPackageDeclaration.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/PropertyManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,548 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/VariableGridLayout.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/BufferSetWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/menu/EnhancedMenuItem.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/DummyFoldHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/WrapWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/IndentFoldHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/RegexEncodingDetector.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/HistoryTextField.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,549 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/LogViewer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/FoldHandlerProvider.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/BeanShellErrorDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/ActionSet.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockableWindowFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/ToolBarEditDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/SimpleNode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,550 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/IOProgressMonitor.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ParseException.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/statusbar/StatusWidgetFactory.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/InputHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/FirstLine.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/IPropertyManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/PluginManagerProgress.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,551 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferChangeAdapter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DynamicContextMenuService.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/org/objectweb/asm/Constants.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/AppearanceOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/VFSManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/ReadWriteLock.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditBeanShellAction.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,552 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/help/HelpHistoryModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/MirrorListHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/MouseHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferSegment.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/DisplayTokenHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/RegisterSaver.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/VFSDirectoryEntryTable.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/util/ProgressObserver.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/EncodingsOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,553 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/DynamicMenuChanged.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/browser/BrowserView.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find com/microstar/xml/XmlException.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/SaveBackupOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHReturnStatement.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/VFSFileFilter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/syntax/XModeHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/classpath/ClassPathListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,554 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferChangeListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/Selection.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/buffer/BufferListener.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/Marker.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/CircleFoldPainter.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/commands/dir.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/ParserConstants.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/MutableListModel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/StandaloneTextArea.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchResults.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/DockablePanel.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 81 - ERROR - Failed to find com/microstar/xml/HandlerBase.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,555 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/io/CopyFileWorker.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/textarea/ScreenLineManager.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/InterpreterError.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/FilePropertiesDialog.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/options/MouseOptionPane.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/gui/PanelWindowContainer.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/pluginmgr/PluginList.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/indent/IndentRule.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchNode.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/BSHAmbiguousName.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/JEditAbstractEditAction.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,556 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/input/TextAreaInputHandler.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/VFSUpdate.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/msg/PositionChanging.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/bsh/reflect/ReflectManagerImpl.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/gjt/sp/jedit/search/HyperSearchResult.java of ../data/txt/jedit/jedit-4.3.csv
+2023-09-22 02:41:38,557 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:41:38,570 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 492

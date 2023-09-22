@@ -1,0 +1,47 @@
+2023-09-22 11:53:41,387 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/camel/scala/dsl/ScalaExpression.scala of ../data/txt/camel/camel-1.6.csv, now using unpromissing method
+2023-09-22 11:53:41,388 - root - prepare_dataset.py - 99 - WARNING - Found org/apache/camel/scala/dsl/ScalaExpression.scala of ../data/txt/camel/camel-1.6.csv using unpromissing method: ['../data/source_code/camel/camel-camel-1.6/components/camel-scala/src/main/scala/org/apache/camel/scala/ScalaExpression.scala']
+2023-09-22 11:53:41,534 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/camel/scala/dsl/ScalaProcessor.scala of ../data/txt/camel/camel-1.6.csv, now using unpromissing method
+2023-09-22 11:53:41,534 - root - prepare_dataset.py - 99 - WARNING - Found org/apache/camel/scala/dsl/ScalaProcessor.scala of ../data/txt/camel/camel-1.6.csv using unpromissing method: ['../data/source_code/camel/camel-camel-1.6/components/camel-scala/src/main/scala/org/apache/camel/scala/ScalaProcessor.scala']
+2023-09-22 11:53:41,536 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/camel/scala/dsl/Wrapper.scala of ../data/txt/camel/camel-1.6.csv, now using unpromissing method
+2023-09-22 11:53:41,536 - root - prepare_dataset.py - 99 - WARNING - Found org/apache/camel/scala/dsl/Wrapper.scala of ../data/txt/camel/camel-1.6.csv using unpromissing method: ['../data/source_code/camel/camel-camel-1.6/components/camel-scala/src/main/scala/org/apache/camel/scala/Wrapper.scala']
+2023-09-22 11:53:41,586 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/camel/scala/dsl/ScalaPredicate.scala of ../data/txt/camel/camel-1.6.csv, now using unpromissing method
+2023-09-22 11:53:41,586 - root - prepare_dataset.py - 99 - WARNING - Found org/apache/camel/scala/dsl/ScalaPredicate.scala of ../data/txt/camel/camel-1.6.csv using unpromissing method: ['../data/source_code/camel/camel-camel-1.6/components/camel-scala/src/main/scala/org/apache/camel/scala/ScalaPredicate.scala']
+2023-09-22 11:53:42,189 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/Log.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,189 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/Log.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,189 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,192 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/NoOpLog.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,192 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/NoOpLog.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,193 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,196 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/LogFactory.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,196 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/LogFactory.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,196 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,211 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/SimpleLog.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,211 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/SimpleLog.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,211 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,223 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/AvalonLogger.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,223 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/AvalonLogger.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,223 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,236 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/LogFactoryImpl.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,237 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/LogFactoryImpl.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,237 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,243 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/Jdk14Logger.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,243 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/Jdk14Logger.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,244 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,244 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/LogKitLogger.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,245 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/LogKitLogger.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,245 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,250 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/Log4JCategoryLog.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,250 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/Log4JCategoryLog.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,250 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,264 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/Log4JLogger.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,264 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/Log4JLogger.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,264 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,282 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/LogConfigurationException.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,283 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/LogConfigurationException.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,290 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,291 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/LogSource.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,291 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/LogSource.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,291 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:53:42,324 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/commons/logging/impl/Log4jFactory.java of ../data/txt/camel/camel-1.2.csv, now using unpromissing method
+2023-09-22 11:53:42,325 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/commons/logging/impl/Log4jFactory.java of ../data/txt/camel/camel-1.2.csv using unpromissing method
+2023-09-22 11:53:42,325 - root - prepare_dataset.py - 104 - ERROR - Candidates: []

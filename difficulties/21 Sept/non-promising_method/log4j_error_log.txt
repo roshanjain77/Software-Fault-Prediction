@@ -1,0 +1,96 @@
+2023-09-22 11:55:23,648 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,648 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,648 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,650 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,650 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,650 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,651 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/X1LoggerFactory.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,651 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/X1LoggerFactory.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,651 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,654 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,654 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,654 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,659 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,659 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,659 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,660 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,660 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,660 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,665 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,665 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,665 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,667 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,667 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,667 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,668 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,668 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,668 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,672 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,672 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,672 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,674 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/X1Logger.java of ../data/txt/log4j/log4j-1.2.csv, now using unpromissing method
+2023-09-22 11:55:23,674 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/X1Logger.java of ../data/txt/log4j/log4j-1.2.csv using unpromissing method
+2023-09-22 11:55:23,674 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:23,999 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,000 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/gui/AddAction.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,000 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/gui/AddAction.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,000 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,003 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/UTObjectRenderer.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,003 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/UTObjectRenderer.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,003 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,004 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/X.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,004 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/X.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,004 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,005 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/Y.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,005 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/Y.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,005 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/gui/JTableAddAction.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/gui/JTableAddAction.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/A.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/A.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,006 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,007 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/xml/DC.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,008 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/xml/DC.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,008 - root - prepare_dataset.py - 104 - ERROR - Candidates: ['../data/source_code/log4j/log4j-v_1.0/src/java/org/apache/log4j/NDC.java', '../data/source_code/log4j/log4j-v_1.0/src/java/org/apache/log4j/test/StressNDC.java']
+2023-09-22 11:55:24,011 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,011 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,011 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,012 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/gui/JListViewModel.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,013 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/gui/JListViewModel.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,013 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/test/B.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/test/B.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/gui/JTableAppenderModel.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,015 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/gui/JTableAppenderModel.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,016 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,016 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.0.csv, now using unpromissing method
+2023-09-22 11:55:24,016 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.0.csv using unpromissing method
+2023-09-22 11:55:24,016 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.1.csv, now using unpromissing method
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.1.csv using unpromissing method
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.1.csv, now using unpromissing method
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.1.csv using unpromissing method
+2023-09-22 11:55:24,346 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,352 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.1.csv, now using unpromissing method
+2023-09-22 11:55:24,352 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.1.csv using unpromissing method
+2023-09-22 11:55:24,352 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.1.csv, now using unpromissing method
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.1.csv using unpromissing method
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 104 - ERROR - Candidates: []
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 92 - WARNING - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.1.csv, now using unpromissing method
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 103 - ERROR - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.1.csv using unpromissing method
+2023-09-22 11:55:24,353 - root - prepare_dataset.py - 104 - ERROR - Candidates: []

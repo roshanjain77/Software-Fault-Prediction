@@ -1,0 +1,67 @@
+2023-09-22 02:42:49,853 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,853 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,855 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,855 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,855 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/X1LoggerFactory.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,855 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,857 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,857 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,860 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,860 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,860 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,860 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,862 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,862 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,864 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,864 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,865 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,865 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,867 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,867 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,868 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/X1Logger.java of ../data/txt/log4j/log4j-1.2.csv
+2023-09-22 02:42:49,868 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:49,885 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 11
+2023-09-22 02:42:50,126 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,126 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,126 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,126 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,127 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/gui/AddAction.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,127 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,129 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/UTObjectRenderer.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,129 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,130 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/X.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,130 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,131 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/Y.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,131 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,131 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/gui/JTableAddAction.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,131 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,131 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/PropertyWatchdog.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,132 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,132 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/A.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,132 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,133 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/xml/DC.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,133 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,136 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/varia/HUPNode.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,136 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,137 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/gui/JListViewModel.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,137 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,138 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/test/B.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,138 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/varia/HUP.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/gui/JTableAppenderModel.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/xml/XMLWatchdog.java of ../data/txt/log4j/log4j-1.0.csv
+2023-09-22 02:42:50,139 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,160 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 16
+2023-09-22 02:42:50,391 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/spi/VectorWriter.java of ../data/txt/log4j/log4j-1.1.csv
+2023-09-22 02:42:50,391 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,391 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/RollingCalendar.java of ../data/txt/log4j/log4j-1.1.csv
+2023-09-22 02:42:50,391 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,394 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/net/DefaultEvaluator.java of ../data/txt/log4j/log4j-1.1.csv
+2023-09-22 02:42:50,395 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,395 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/Dispatcher.java of ../data/txt/log4j/log4j-1.1.csv
+2023-09-22 02:42:50,395 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,395 - root - prepare_dataset.py - 81 - ERROR - Failed to find org/apache/log4j/spi/NullWriter.java of ../data/txt/log4j/log4j-1.1.csv
+2023-09-22 02:42:50,395 - root - prepare_dataset.py - 82 - ERROR - Candidates: []
+2023-09-22 02:42:50,412 - root - prepare_dataset.py - 91 - CRITICAL - Missing files: 5
