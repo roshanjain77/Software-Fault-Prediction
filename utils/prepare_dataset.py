@@ -9,7 +9,8 @@ import zipfile
 import pandas as pd
 
 SOURCE_CODE_FOLDER = "../data/source_code"
-CSV_FOLDER = "../data/txt"
+CSV_FOLDER = "../data/csv"
+PROCESSED_FOLDER = "../data/processed"
 
 logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(name)s - %(filename)s - %(lineno)d - %(levelname)s - %(message)s')
 
@@ -57,6 +58,7 @@ def process_file(csv_file):
 
     software_name, version = remove_extension(csv_file).split("/")[-1].split("-")
     data["file_loc"] = ""
+    data["file_loc_non_promissing"] = ""
 
     logging.info(f"Processing {csv_file}: {software_name}-{version} Adding location of source code")
 
@@ -65,7 +67,7 @@ def process_file(csv_file):
     for file in file_list:
         if software_name in file and version in file:
             potential_list.append(file)
-    
+
     logging.debug(f"Potential list for {software_name}-{version}:", potential_list)
 
     missing_files = 0
@@ -97,7 +99,7 @@ def process_file(csv_file):
 
             if len(candidate_list) == 1:
                 logging.warning(f"Found {file_name} of {csv_file} using unpromissing method: {candidate_list}")
-                data.at[index, "file_loc"] = candidate_list[0]
+                data.at[index, "file_loc_non_promissing"] = candidate_list[0]
                 nonpromissing_files += 1
             else:
                 logging.error(f"Failed to find {file_name} of {csv_file} using unpromissing method")
@@ -111,6 +113,18 @@ def process_file(csv_file):
         logging.debug(f"Candidates for {row['name']}:", candidate_list)
         logging.info(f"Processed {index+1}/{len(data)}")
 
+
+    for index, rows in data.iterrows():
+        if rows["file_loc"]:
+            extention = rows["file_loc"].split(".")[-1]
+            os.system(f"cp '{rows['file_loc']}' '{PROCESSED_FOLDER}/source_code/{software_name}-{version}-{rows['name']}.{extention}'")
+            data.at[index, "file_loc"] = f"{software_name}-{version}-{rows['name']}.{extention}"
+        elif rows["file_loc_non_promissing"]:
+            extention = rows["file_loc_non_promissing"].split(".")[-1]
+            os.system(f"cp '{rows['file_loc_non_promissing']}' '{PROCESSED_FOLDER}/source_code/{software_name}-{version}-{rows['name']}.nonpromissing.{extention}'")
+            data.at[index, "file_loc_non_promissing"] = f"{software_name}-{version}-{rows['name']}.nonpromissing.{extention}"
+
+
     logging.debug(f"Done with adding location for file: {csv_file}\nData: {data}")
     logging.info(f"Missing files: {missing_files}")
     logging.info(f"Nonpromissing files: {nonpromissing_files}")
@@ -122,7 +136,7 @@ def read_all_csv(directory):
         for file in files:
             if file.endswith(".csv"):
                 file_path = os.path.join(root, file)
-                print(process_file(file_path))
+                process_file(file_path).to_csv(PROCESSED_FOLDER + "/" + file, index=False)
 
 
 if __name__ == "__main__":
