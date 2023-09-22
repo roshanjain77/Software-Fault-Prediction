@@ -9,8 +9,9 @@ import zipfile
 import pandas as pd
 
 SOURCE_CODE_FOLDER = "../data/source_code"
+CSV_FOLDER = "../data/txt"
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(filename)s - %(lineno)d - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(name)s - %(filename)s - %(lineno)d - %(levelname)s - %(message)s')
 
 
 def unzip_files(directory):
@@ -20,7 +21,13 @@ def unzip_files(directory):
             file_path = os.path.join(root, file)
             if file.endswith(".zip"):
                 with zipfile.ZipFile(file_path, 'r') as zip_ref:
-                    zip_ref.extractall(root)
+                    try:
+                        # path should be same as file name
+                        zip_ref.extractall(path=root)
+                        logging.info(f"Extracted {file} to {root}")
+                    except:
+                        logging.error(f"Failed to extract {file}")
+                        logging.error(traceback.format_exc())
                 logging.info(f"Unzipped {file} to {root}")
             elif file.endswith(".tar.gz"):
                 with tarfile.open(file_path, 'r:gz') as tar_ref:
@@ -36,7 +43,7 @@ def list_all_java_files(directory):
     file_list = []
     for root, _, files in os.walk(directory):
         for file in files:
-            if re.search(r"\.java$", file):
+            if re.search(r"\.java$", file) or re.search(r"\.scala$", file):
                 file_path = os.path.join(root, file)
                 file_list.append(file_path)
     return file_list
@@ -61,26 +68,63 @@ def process_file(csv_file):
     
     logging.debug(f"Potential list for {software_name}-{version}:", potential_list)
 
+    missing_files = 0
+    nonpromissing_files = 0
     for index, row in data.iterrows():
         file_name = row['name']
-        file_name = file_name.replace(".", "/") + ".java"
+        file_name = file_name.replace(".", "/")
+        if "scala" in file_name:
+            file_name += ".scala"
+        else:
+            file_name += ".java"
 
         candidate_list = []
         for file in potential_list:
             if file_name in file and "testcases" not in file:
                 candidate_list.append(file)
-        if len(candidate_list) != 1:
-            logging.error(f"Failed to find {file_name}")
+        if len(candidate_list) > 1:
+            logging.error(f"Failed to find {file_name} of {csv_file}")
             logging.error("Candidates: %s", candidate_list)
-        else:
+            missing_files += 1
+        elif len(candidate_list) == 1:
             data.at[index, "file_loc"] = candidate_list[0]
+        else:
+            logging.warning(f"Failed to find {file_name} of {csv_file}, now using unpromissing method")
+            short_file_name = file_name.split("/")[-1]
+            for file in potential_list:
+                if short_file_name in file and "testcases" not in file:
+                    candidate_list.append(file)
+
+            if len(candidate_list) == 1:
+                logging.warning(f"Found {file_name} of {csv_file} using unpromissing method: {candidate_list}")
+                data.at[index, "file_loc"] = candidate_list[0]
+                nonpromissing_files += 1
+            else:
+                logging.error(f"Failed to find {file_name} of {csv_file} using unpromissing method")
+                logging.error("Candidates: %s", candidate_list)
+                missing_files += 1
+        # else:
+        #     logging.error(f"Failed to find {file_name} of {csv_file}")
+        #     logging.error("Candidates: %s", candidate_list)
+        #     missing_files += 1
 
         logging.debug(f"Candidates for {row['name']}:", candidate_list)
         logging.info(f"Processed {index+1}/{len(data)}")
 
     logging.debug(f"Done with adding location for file: {csv_file}\nData: {data}")
+    logging.info(f"Missing files: {missing_files}")
+    logging.info(f"Nonpromissing files: {nonpromissing_files}")
     return data
 
 
+def read_all_csv(directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".csv"):
+                file_path = os.path.join(root, file)
+                print(process_file(file_path))
+
+
 if __name__ == "__main__":
-    print(process_file("../data/txt/ant/ant-1.3.csv"))
+    # unzip_files(SOURCE_CODE_FOLDER)
+    read_all_csv(CSV_FOLDER)
