@@ -1,3 +1,9 @@
 torch
 transformers
+numpy
 pandas
+datasets
+tensorflow
+keras
+scikit-learn
+tensorboard

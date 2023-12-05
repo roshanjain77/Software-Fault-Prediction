@@ -1,0 +1,32 @@
+2023-12-04 15:35:40,430 - dataset.py[line:57] - DEBUG: Getting source code from xalan-2.4-org.apache.xpath.objects.XString.java, nan
+Traceback (most recent call last):
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 74, in <module>
+    dataset = Dataset(data_dir, source_code_dir, generate_dataset=True, generate_loc="data/with_code")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 29, in __init__
+    self.__generate_dataset()
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 42, in __generate_dataset
+    self._generate_dataset_from_csv(csv_file)
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 47, in _generate_dataset_from_csv
+    df['source_code'] = df.apply(lambda x: self.__get_source_code(x.file_loc, x.file_loc_non_promissing), axis=1)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/anaconda3/envs/mtp/lib/python3.11/site-packages/pandas/core/frame.py", line 10034, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ^^^^^^^^^^
+  File "/home/roshan/anaconda3/envs/mtp/lib/python3.11/site-packages/pandas/core/apply.py", line 837, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/anaconda3/envs/mtp/lib/python3.11/site-packages/pandas/core/apply.py", line 963, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/anaconda3/envs/mtp/lib/python3.11/site-packages/pandas/core/apply.py", line 979, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 47, in <lambda>
+    df['source_code'] = df.apply(lambda x: self.__get_source_code(x.file_loc, x.file_loc_non_promissing), axis=1)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roshan/Desktop/Projects/Academic/Software-Fault-Prediction/dataset.py", line 67, in __get_source_code
+    return f.read()
+           ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfc in position 37056: invalid start byte

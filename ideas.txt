@@ -1,0 +1,7 @@
+1. Remove the unwanted comments from the code
+2. Break the code into functions and classes
+   Apply feedforward layer from functions output
+   This should be done to extract the error info from the code?
+   Kinda like feedforward layer of transformers
+3. Use previous version of code, find the difference
+
