@@ -3,3 +3,4 @@
 *.pyd
 data/
 *.ipynb_checkpoints/
+data_primitive/

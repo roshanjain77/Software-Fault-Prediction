@@ -1,82 +1,50 @@
-# coding=utf-8
-# Copyright (c) Facebook, Inc. and its affiliates.
-# Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
-# Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-from __future__ import absolute_import, division, print_function
-
-
+import csv
 import logging
+import math
 import os
 import sys
 from io import open
-import json
-import csv
-import glob
-import tqdm
-from typing import List
-from transformers import PreTrainedTokenizer
 
-import random
-
+import pandas as pd
+from sklearn.metrics import (auc, confusion_matrix, f1_score, roc_auc_score,
+                             roc_curve)
 
 logger = logging.getLogger(__name__)
 
 
 class InputExample(object):
-    """A single training/test example for multiple choice"""
+    """A single training/test example for simple sequence classification."""
 
-    def __init__(self, example_id, question, contexts, endings, label=None):
+    def __init__(self, guid, text_a, text_b=None, label=None):
         """Constructs a InputExample.
 
         Args:
-            example_id: Unique id for the example.
-            contexts: list of str. The untokenized text of the first sequence (context of corresponding question).
-            question: string. The untokenized text of the second sequence (question).
-            endings: list of str. multiple choice's options. Its length must be equal to contexts' length.
+            guid: Unique id for the example.
+            text_a: string. The untokenized text of the first sequence. For single
+            sequence tasks, only this sequence must be specified.
+            text_b: (Optional) string. The untokenized text of the second sequence.
+            Only must be specified for sequence pair tasks.
             label: (Optional) string. The label of the example. This should be
             specified for train and dev examples, but not for test examples.
         """
-        self.example_id = example_id
-        self.question = question
-        self.contexts = contexts
-        self.endings = endings
+        self.guid = guid
+        self.text_a = text_a
+        self.text_b = text_b
         self.label = label
 
 
 class InputFeatures(object):
-    def __init__(self,
-                 example_id,
-                 choices_features,
-                 label
+    """A single set of features of data."""
 
-                 ):
-        self.example_id = example_id
-        self.choices_features = [
-            {
-                'input_ids': input_ids,
-                'input_mask': input_mask,
-                'segment_ids': segment_ids
-            }
-            for input_ids, input_mask, segment_ids in choices_features
-        ]
-        self.label = label
+    def __init__(self, input_ids, input_mask, segment_ids, label_id):
+        self.input_ids = input_ids
+        self.input_mask = input_mask
+        self.segment_ids = segment_ids
+        self.label_id = label_id
 
 
 class DataProcessor(object):
-    """Base class for data converters for multiple choice data sets."""
+    """Base class for data converters for sequence classification data sets."""
 
     def get_train_examples(self, data_dir):
         """Gets a collection of `InputExample`s for the train set."""
@@ -86,187 +54,253 @@ class DataProcessor(object):
         """Gets a collection of `InputExample`s for the dev set."""
         raise NotImplementedError()
 
-    def get_test_examples(self, data_dir):
-        """Gets a collection of `InputExample`s for the test set."""
-        raise NotImplementedError()
-
     def get_labels(self):
         """Gets the list of labels for this data set."""
         raise NotImplementedError()
 
+    @classmethod
+    def _read_tsv(cls, input_file):
+        """Reads a tab separated value file."""
+        return pd.read_csv(input_file, sep=',').values.tolist()
 
-class ACCProcessor(DataProcessor):
-    def __init__(self):
-        self.D = [[], [], []]
 
-        datasetfile = "arranger_input.json"
+class PromiseProcessor(DataProcessor):
+    """Processor for the MRPC data set (GLUE version)."""
 
-        with open(datasetfile, "r") as f:
-            data = json.load(f)
-            for sid in range(2):
-                dt = ["train", "dev"][sid]
-                for i in range(len(data[dt])):
-                    d = [data[dt][i][0].lower(), data[dt][i][1].lower(),
-                         data[dt][i][2].lower(), data[dt][i][3]]
-                    self.D[sid] += [d]
-
-        sid = 2
-        for fns in [["lm.input.dev.cc.txt", "lm.output.dev.cc.txt", "dev.inference.gpt2_10epoch_1e-3_fp16.json"],
-                    ["lm.input.test.cc.txt", "lm.output.test.cc.txt", "test.inference.gpt2_10epoch_1e-3_fp16.json"]]:
-            with open(fns[0], "r") as f:
-                data = f.read().split("\n")[0:-1:2]
-            data_d = data
-
-            with open(fns[1], "r") as f:
-                data = f.read()
-            data = data.split("[TransformerGenerator]:")[1:]
-            for i in range(len(data)):
-                data[i] = data[i].split("\n")[0].strip()
-            data_cc = data
-
-            with open(fns[2], "r") as f:
-                data = json.load(f)
-
-            for i in range(len(data)):
-                data[i] = data[i].split("<|response|>")
-                if len(data[i]) == 1:
-                    data[i] += ['']
-                elif len(data[i]) > 2:
-                    data[i] = ["<|response|>".join(data[i][:-2]), data[i][-1]]
-                self.D[2] += [[data_d[i].strip(), data[i][1],
-                               data_cc[i].strip(), 0]]
-
-    def get_train_examples(self, data_dir):
+    def get_train_examples(self, data_dir, train_file):
         """See base class."""
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, train_file)))
         return self._create_examples(
-            self.D[0], "train")
+            self._read_tsv(os.path.join(data_dir, train_file)), "train")
 
-    def get_test_examples(self, data_dir):
+    def get_dev_examples(self, data_dir, dev_file):
         """See base class."""
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, dev_file)))
         return self._create_examples(
-            self.D[2], "test")
+            self._read_tsv(os.path.join(data_dir, dev_file)), "dev")
 
-    def get_dev_examples(self, data_dir):
+    def get_test_examples(self, data_dir, test_file):
         """See base class."""
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, test_file)))
         return self._create_examples(
-            self.D[1], "dev")
+            self._read_tsv(os.path.join(data_dir, test_file)), "test")
 
     def get_labels(self):
         """See base class."""
-        return ["0", "1", "2"]
+        return ["0", "1"]
 
-    def _create_examples(self, data, set_type):
+    def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
         examples = []
-        for (i, d) in enumerate(data):
-
-            acc_id = "%s-%d" % (set_type, i)
-
+        for (i, line) in enumerate(lines):
+            guid = "%s-%s" % (set_type, i)
+            text_a = line[3]
+            text_b = line[4]
+            if (set_type == 'test'):
+                label = self.get_labels()[0]
+            else:
+                label = line[0]
             examples.append(
-                InputExample(
-                    example_id=acc_id,
-                    question="",
-                    contexts=[data[i][0], data[i][0], data[i][0]],
-                    endings=[data[i][1], data[i][2] + " " +
-                             data[i][1], data[i][1] + " " + data[i][2]],
-                    label=str(data[i][3])))
-        return examples
+                InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
+        if (set_type == 'test'):
+            return examples, lines
+        else:
+            return examples
 
 
-def convert_examples_to_features(
-    examples: List[InputExample],
-    label_list: List[str],
-    max_length: int,
-    tokenizer: PreTrainedTokenizer,
-    pad_token_segment_id=0,
-    pad_on_left=False,
-    pad_token=0,
-    mask_padding_with_zero=True,
-) -> List[InputFeatures]:
-    """
-    Loads a data file into a list of `InputFeatures`
+def convert_examples_to_features(examples, label_list, max_seq_length,
+                                 tokenizer, output_mode,
+                                 cls_token_at_end=False, pad_on_left=False,
+                                 cls_token='[CLS]', sep_token='[SEP]', pad_token=0,
+                                 sequence_a_segment_id=0, sequence_b_segment_id=1,
+                                 cls_token_segment_id=1, pad_token_segment_id=0,
+                                 mask_padding_with_zero=True):
+    """ Loads a data file into a list of `InputBatch`s
+        `cls_token_at_end` define the location of the CLS token:
+            - False (Default, BERT/XLM pattern): [CLS] + A + [SEP] + B + [SEP]
+            - True (XLNet/GPT pattern): A + [SEP] + B + [SEP] + [CLS]
+        `cls_token_segment_id` define the segment id associated to the CLS token (0 for BERT, 2 for XLNet)
     """
 
     label_map = {label: i for i, label in enumerate(label_list)}
 
     features = []
-    for (ex_index, example) in tqdm.tqdm(enumerate(examples), desc="convert examples to features"):
+    for (ex_index, example) in enumerate(examples):
         if ex_index % 10000 == 0:
             logger.info("Writing example %d of %d" % (ex_index, len(examples)))
-        choices_features = []
-        for ending_idx, (context, ending) in enumerate(zip(example.contexts, example.endings)):
-            text_a = context
-            if example.question.find("_") != -1:
-                text_b = example.question.replace("_", ending)
-            else:
-                text_b = example.question + " " + ending
 
-            inputs = tokenizer.encode_plus(
-                text_a,
-                text_b,
-                add_special_tokens=True,
-                max_length=max_length,
-            )
+        tokens_a = tokenizer.tokenize(example.text_a)[:50]
 
-            input_ids, token_type_ids = inputs["input_ids"], inputs["token_type_ids"]
+        tokens_b = None
+        if example.text_b:
+            tokens_b = tokenizer.tokenize(example.text_b)
+            # Modifies `tokens_a` and `tokens_b` in place so that the total
+            # length is less than the specified length.
+            # Account for [CLS], [SEP], [SEP] with "- 3"
+            _truncate_seq_pair(tokens_a, tokens_b, max_seq_length - 3)
+        else:
+            # Account for [CLS] and [SEP] with "- 2"
+            if len(tokens_a) > max_seq_length - 2:
+                tokens_a = tokens_a[:(max_seq_length - 2)]
 
-            # The mask has 1 for real tokens and 0 for padding tokens. Only real
-            # tokens are attended to.
-            attention_mask = [
-                1 if mask_padding_with_zero else 0] * len(input_ids)
+        # The convention in BERT is:
+        # (a) For sequence pairs:
+        #  tokens:   [CLS] is this jack ##son ##ville ? [SEP] no it is not . [SEP]
+        #  type_ids:   0   0  0    0    0     0       0   0   1  1  1  1   1   1
+        # (b) For single sequences:
+        #  tokens:   [CLS] the dog is hairy . [SEP]
+        #  type_ids:   0   0   0   0  0     0   0
+        #
+        # Where "type_ids" are used to indicate whether this is the first
+        # sequence or the second sequence. The embedding vectors for `type=0` and
+        # `type=1` were learned during pre-training and are added to the wordpiece
+        # embedding vector (and position vector). This is not *strictly* necessary
+        # since the [SEP] token unambiguously separates the sequences, but it makes
+        # it easier for the model to learn the concept of sequences.
+        #
+        # For classification tasks, the first vector (corresponding to [CLS]) is
+        # used as as the "sentence vector". Note that this only makes sense because
+        # the entire model is fine-tuned.
+        tokens = tokens_a + [sep_token]
+        segment_ids = [sequence_a_segment_id] * len(tokens)
 
-            # Zero-pad up to the sequence length.
-            padding_length = max_length - len(input_ids)
-            if pad_on_left:
-                input_ids = ([pad_token] * padding_length) + input_ids
-                attention_mask = (
-                    [0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
-                token_type_ids = ([pad_token_segment_id] *
-                                  padding_length) + token_type_ids
-            else:
-                input_ids = input_ids + ([pad_token] * padding_length)
-                attention_mask = attention_mask + \
-                    ([0 if mask_padding_with_zero else 1] * padding_length)
-                token_type_ids = token_type_ids + \
-                    ([pad_token_segment_id] * padding_length)
+        if tokens_b:
+            tokens += tokens_b + [sep_token]
+            segment_ids += [sequence_b_segment_id] * (len(tokens_b) + 1)
 
-            assert len(input_ids) == max_length
-            assert len(attention_mask) == max_length
-            assert len(token_type_ids) == max_length
-            choices_features.append(
-                (input_ids, attention_mask, token_type_ids))
+        if cls_token_at_end:
+            tokens = tokens + [cls_token]
+            segment_ids = segment_ids + [cls_token_segment_id]
+        else:
+            tokens = [cls_token] + tokens
+            segment_ids = [cls_token_segment_id] + segment_ids
 
-        label = label_map[example.label]
+        input_ids = tokenizer.convert_tokens_to_ids(tokens)
 
-        if ex_index < 2:
+        # The mask has 1 for real tokens and 0 for padding tokens. Only real
+        # tokens are attended to.
+        input_mask = [1 if mask_padding_with_zero else 0] * len(input_ids)
+
+        # Zero-pad up to the sequence length.
+        padding_length = max_seq_length - len(input_ids)
+        if pad_on_left:
+            input_ids = ([pad_token] * padding_length) + input_ids
+            input_mask = ([0 if mask_padding_with_zero else 1]
+                          * padding_length) + input_mask
+            segment_ids = ([pad_token_segment_id] *
+                           padding_length) + segment_ids
+        else:
+            input_ids = input_ids + ([pad_token] * padding_length)
+            input_mask = input_mask + \
+                ([0 if mask_padding_with_zero else 1] * padding_length)
+            segment_ids = segment_ids + \
+                ([pad_token_segment_id] * padding_length)
+
+        assert len(input_ids) == max_seq_length
+        assert len(input_mask) == max_seq_length
+        assert len(segment_ids) == max_seq_length
+
+        if output_mode == "classification":
+            label_id = label_map[example.label]
+        elif output_mode == "regression":
+            label_id = float(example.label)
+        else:
+            raise KeyError(output_mode)
+
+        if ex_index < 0:
             logger.info("*** Example ***")
-            logger.info("race_id: {}".format(example.example_id))
-            for choice_idx, (input_ids, attention_mask, token_type_ids) in enumerate(choices_features):
-                logger.info("choice: {}".format(choice_idx))
-                logger.info("input_ids: {}".format(
-                    ' '.join(map(str, input_ids))))
-                logger.info("attention_mask: {}".format(
-                    ' '.join(map(str, attention_mask))))
-                logger.info("token_type_ids: {}".format(
-                    ' '.join(map(str, token_type_ids))))
-                logger.info("label: {}".format(label))
+            logger.info("guid: %s" % (example.guid))
+            logger.info("tokens: %s" % " ".join(
+                [str(x) for x in tokens]))
+            logger.info("input_ids: %s" %
+                        " ".join([str(x) for x in input_ids]))
+            logger.info("input_mask: %s" %
+                        " ".join([str(x) for x in input_mask]))
+            logger.info("segment_ids: %s" %
+                        " ".join([str(x) for x in segment_ids]))
+            logger.info("label: %s (id = %d)" % (example.label, label_id))
 
         features.append(
-            InputFeatures(
-                example_id=example.example_id,
-                choices_features=choices_features,
-                label=label,
-            )
-        )
-
+            InputFeatures(input_ids=input_ids,
+                          input_mask=input_mask,
+                          segment_ids=segment_ids,
+                          label_id=label_id))
     return features
 
 
+def _truncate_seq_pair(tokens_a, tokens_b, max_length):
+    """Truncates a sequence pair in place to the maximum length."""
+
+    while True:
+        total_length = len(tokens_a) + len(tokens_b)
+        if total_length <= max_length:
+            break
+        if len(tokens_a) > len(tokens_b):
+            tokens_a.pop()
+        else:
+            tokens_b.pop()
+
+
+def simple_accuracy(preds, labels):
+    return (preds == labels).mean()
+
+
+def acc_and_f1(preds, labels, name):
+    acc = simple_accuracy(preds, labels)
+    f1 = f1_score(y_true=labels, y_pred=preds)
+    cm = confusion_matrix(y_true=labels, y_pred=preds)
+    tp = cm[1][1]
+    tn = cm[0][0]
+    fp = cm[0][1]
+    fn = cm[1][0]
+    precision = 0 if tp + fp == 0 else tp/(tp+fp)
+    recall = 0 if tp + fn == 0 else tp/(tp+fn)
+    fprate = 0 if fp + tn == 0 else fp/(fp+tn)
+    pdVal = 0 if tp + fn == 0 else tp/(tp+fn)
+    pfVal = 0 if fp + tn == 0 else fp/(fp+tn)
+    G = 0 if pdVal+1-pfVal == 0 else 2*pdVal*(1-pfVal)/(pdVal+1-pfVal)
+    F1 = 0 if precision+recall == 0 else 2 * \
+        precision * recall / (precision+recall)
+    MCC = 0 if (tp+fp)*(tp+fn)*(tn+fp)*(tn+fn) == 0 else (tp*tn -
+                                                          fp*fn)/(math.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn)))
+    fpr, tpr, thresholds = roc_curve(labels, preds)
+    AUC = auc(fpr, tpr)
+    fileName = 'result{0}.csv'.format(name)
+    with open(fileName, 'a+') as f:
+        if (os.path.getsize(fileName) == 0):
+            f.writelines(','.join(['F1', 'G', 'AUC', 'MCC', 'accuracy',
+                         'precision', 'recall', 'tp', 'tn', 'fp', 'fn']) + '\n')
+        f.writelines(','.join([str(f1), str(G), str(AUC), str(MCC), str(acc), str(precision), str(recall),
+                               str(tp), str(tn), str(fp), str(fn)])+'\n')
+    return {
+        "acc": acc,
+        "f1": f1,
+        "acc_and_f1": (acc + f1) / 2,
+        "confusion matrix": cm,
+        "precision": precision,
+        "recall": recall,
+        "G": G,
+        "MCC": MCC,
+        "AUC": AUC
+    }
+
+
+def compute_metrics(task_name, preds, labels, name):
+    assert len(preds) == len(labels)
+    if task_name == "promise":
+        return acc_and_f1(preds, labels, name)
+    else:
+        raise KeyError(task_name)
+
+
 processors = {
-    "acc": ACCProcessor,
+    "promise": PromiseProcessor,
 }
 
+output_modes = {
+    "promise": "classification",
+}
 
-MULTIPLE_CHOICE_TASKS_NUM_LABELS = {
-    "acc", 3
+GLUE_TASKS_NUM_LABELS = {
+    "promise": 2,
 }
