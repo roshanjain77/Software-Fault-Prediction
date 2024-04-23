@@ -1,0 +1,177 @@
+{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:17 PM Main thread is waiting"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:17 PM >> initialize"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:17 PM Initializing Java Language Server 1.30.1.202404221222"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:17 PM Started org.eclipse.m2e.core 1ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM ProjectRegistryRefreshJob finished 880ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM Started org.eclipse.buildship.core 31ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM Static Commands: []"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Starting",
+        "message": "Init..."
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Starting",
+        "message": "0% Starting Java Language Server"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM RepositoryRegistryUpdateJob finished 1ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Starting",
+        "message": "30% Starting Java Language Server"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "ProjectStatus",
+        "message": "OK"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Starting",
+        "message": "100% Starting Java Language Server"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:18 PM Workspace initialized in 409ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Started",
+        "message": "Ready"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "language/status",
+    "params": {
+        "type": "Starting",
+        "message": "100% Starting Java Language Server"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:19 PM Reconciled 1. Took 0 ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM begin problem for /ori.java"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM TODO pipeline v mulicast is of type Task"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM TODO pipeline v mulicast is of type Task"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM TODO pipeline v mulicast is of type Task"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM 4 problems reported for /ori.java"
+    }
+}{
+    "jsonrpc": "2.0",
+    "method": "window/logMessage",
+    "params": {
+        "type": 3,
+        "message": "Apr 23, 2024, 12:27:20 PM Validated 1. Took 195 ms"
+    }
+}{
+    "jsonrpc": "2.0",
+    "id": 7,
+    "error": {
+        "code": -32603,
+        "message": "Internal error.",
+        "data": "java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke \"org.eclipse.jdt.core.dom.ITypeBinding.isAnonymous()\" because \"calledTypeBinding\" is null\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\nCaused by: java.lang.NullPointerException: Cannot invoke \"org.eclipse.jdt.core.dom.ITypeBinding.isAnonymous()\" because \"calledTypeBinding\" is null\n\tat org.eclipse.jdt.internal.corext.callhierarchy.CalleeAnalyzerVisitor.addMethodCall(CalleeAnalyzerVisitor.java:254)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.CalleeAnalyzerVisitor.visit(CalleeAnalyzerVisitor.java:96)\n\tat org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:293)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3317)\n\tat org.eclipse.jdt.core.dom.VariableDeclarationFragment.accept0(VariableDeclarationFragment.java:238)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3340)\n\tat org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:254)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3340)\n\tat org.eclipse.jdt.core.dom.Block.accept0(Block.java:128)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3317)\n\tat org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:677)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3340)\n\tat org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:498)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3340)\n\tat org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:258)\n\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3269)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.CalleeMethodWrapper.findChildren(CalleeMethodWrapper.java:101)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.MethodWrapper.performSearch(MethodWrapper.java:266)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.MethodWrapper.doFindChildren(MethodWrapper.java:197)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.MethodWrapper.getCalls(MethodWrapper.java:88)\n\tat org.eclipse.jdt.internal.corext.callhierarchy.CalleeMethodWrapper.getCalls(CalleeMethodWrapper.java:58)\n\tat org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandler.getOutgoingCallItemsAt(CallHierarchyHandler.java:255)\n\tat org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandler.callHierarchyOutgoingCalls(CallHierarchyHandler.java:133)\n\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1163)\n\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$59(JDTLanguageServer.java:1216)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n\t... 6 more\n"
+    }
+}

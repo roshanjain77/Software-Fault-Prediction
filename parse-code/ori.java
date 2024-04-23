@@ -3,13 +3,13 @@
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.
  * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the ""License""); you may not use this file except in compliance with
+ * (the "License"); you may not use this file except in compliance with
  * the License.  You may obtain a copy of the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an ""AS IS"" BASIS,
+ * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
@@ -71,8 +71,8 @@ import org.apache.commons.logging.LogFactory;
  * @version $Revision$
  */
 @XmlAccessorType(XmlAccessType.PROPERTY)
-public abstract class ProcessorType<Type extends ProcessorType> extends OptionalIdentifiedType<Type> implements Block {  // ERROR - public abstract class ProcessorType<Type extends ProcessorType<Type>> extends OptionalIdentifiedType<Type> implements Block {
-    public static final String DEFAULT_TRACE_CATEGORY = ""org.apache.camel.TRACE"";  // ERROR - double quotes
+public abstract class ProcessorType<Type extends ProcessorType> extends OptionalIdentifiedType<Type> implements Block {
+    public static final String DEFAULT_TRACE_CATEGORY = "org.apache.camel.TRACE";
     private static final transient Log LOG = LogFactory.getLog(ProcessorType.class);
     private ErrorHandlerBuilder errorHandlerBuilder;
     private Boolean inheritErrorHandlerFlag;
@@ -87,7 +87,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
 
     public Processor createProcessor(RouteContext routeContext) throws Exception {
-        throw new UnsupportedOperationException(""Not implemented yet for class: "" + getClass().getName());
+        throw new UnsupportedOperationException("Not implemented yet for class: " + getClass().getName());
     }
 
     public Processor createOutputsProcessor(RouteContext routeContext) throws Exception {
@@ -232,7 +232,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * output of one endpoint will be the input of the next endpoint
      */
     public Type pipeline(Collection<Endpoint> endpoints) {
-        // TODO pipeline v mulicast  // ERROR - DO we consider this as an error?
+        // TODO pipeline v mulicast
         return to(endpoints);
     }
 
@@ -242,7 +242,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     public ProcessorType<? extends ProcessorType> end() {
         if (blocks.isEmpty()) {
             if (parent == null) {
-                throw new IllegalArgumentException(""Root node with no active block"");
+                throw new IllegalArgumentException("Root node with no active block");
             }
             return parent;
         }
@@ -366,7 +366,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates a dynamic <a
-     * href=""http://activemq.apache.org/camel/recipient-list.html"">Recipient
+     * href="http://activemq.apache.org/camel/recipient-list.html">Recipient
      * List</a> pattern.
      *
      * @param receipients is the builder of the expression used in the
@@ -380,7 +380,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates a dynamic <a
-     * href=""http://activemq.apache.org/camel/recipient-list.html"">Recipient
+     * href="http://activemq.apache.org/camel/recipient-list.html">Recipient
      * List</a> pattern.
      *
      * @return the expression clause for the expression used in the
@@ -396,7 +396,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates a <a
-     * href=""http://activemq.apache.org/camel/routing-slip.html"">Routing
+     * href="http://activemq.apache.org/camel/routing-slip.html">Routing
      * Slip</a> pattern.
      *
      * @param header is the header that the {@link org.apache.camel.processor.RoutingSlip RoutingSlip}
@@ -412,7 +412,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates a <a
-     * href=""http://activemq.apache.org/camel/routing-slip.html"">Routing
+     * href="http://activemq.apache.org/camel/routing-slip.html">Routing
      * Slip</a> pattern.
      *
      * @param header is the header that the {@link org.apache.camel.processor.RoutingSlip RoutingSlip}
@@ -428,7 +428,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates a <a
-     * href=""http://activemq.apache.org/camel/routing-slip.html"">Routing
+     * href="http://activemq.apache.org/camel/routing-slip.html">Routing
      * Slip</a> pattern with the default header {@link RoutingSlipType#ROUTING_SLIP_HEADER}.
      * The list of URIs in the header will be split based on the default delimiter
      * {@link RoutingSlipType#DEFAULT_DELIMITER}.
@@ -441,7 +441,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * This splitter responds with the latest message returned from destination
@@ -458,7 +458,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * This splitter responds with the latest message returned from destination
@@ -474,7 +474,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
@@ -492,7 +492,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
@@ -509,7 +509,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * This splitter responds with the latest message returned from destination
@@ -528,7 +528,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * This splitter responds with the latest message returned from destination
@@ -546,7 +546,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
@@ -567,7 +567,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/splitter.html"">Splitter</a>
+     * href="http://activemq.apache.org/camel/splitter.html">Splitter</a>
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
@@ -587,7 +587,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/resequencer.html"">Resequencer</a>
+     * href="http://activemq.apache.org/camel/resequencer.html">Resequencer</a>
      * pattern where a list of expressions are evaluated to be able to compare
      * the message exchanges to reorder them. e.g. you may wish to sort by some
      * headers
@@ -604,7 +604,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/resequencer.html"">Resequencer</a>
+     * href="http://activemq.apache.org/camel/resequencer.html">Resequencer</a>
      * pattern where an expression is evaluated to be able to compare the
      * message exchanges to reorder them. e.g. you may wish to sort by some
      * header
@@ -618,7 +618,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/resequencer.html"">Resequencer</a>
+     * href="http://activemq.apache.org/camel/resequencer.html">Resequencer</a>
      * pattern where a list of expressions are evaluated to be able to compare
      * the message exchanges to reorder them. e.g. you may wish to sort by some
      * headers
@@ -634,7 +634,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/resequencer.html"">Resequencer</a>
+     * href="http://activemq.apache.org/camel/resequencer.html">Resequencer</a>
      * pattern where a list of expressions are evaluated to be able to compare
      * the message exchanges to reorder them. e.g. you may wish to sort by some
      * headers
@@ -650,7 +650,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates an <a
-     * href=""http://activemq.apache.org/camel/aggregator.html"">Aggregator</a>
+     * href="http://activemq.apache.org/camel/aggregator.html">Aggregator</a>
      * pattern where a batch of messages are processed (up to a maximum amount
      * or until some timeout is reached) and messages for the same correlation
      * key are combined together using some kind of {@link AggregationStrategy}
@@ -671,7 +671,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates an <a
-     * href=""http://activemq.apache.org/camel/aggregator.html"">Aggregator</a>
+     * href="http://activemq.apache.org/camel/aggregator.html">Aggregator</a>
      * pattern where a batch of messages are processed (up to a maximum amount
      * or until some timeout is reached) and messages for the same correlation
      * key are combined together using some kind of {@link AggregationStrategy}
@@ -695,7 +695,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates an <a
-     * href=""http://activemq.apache.org/camel/aggregator.html"">Aggregator</a>
+     * href="http://activemq.apache.org/camel/aggregator.html">Aggregator</a>
      * pattern using a custom aggregation collection implementation.
      *
      * @param aggregationCollection the collection used to perform the aggregation
@@ -709,7 +709,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates an <a
-     * href=""http://activemq.apache.org/camel/aggregator.html"">Aggregator</a>
+     * href="http://activemq.apache.org/camel/aggregator.html">Aggregator</a>
      * pattern where a batch of messages are processed (up to a maximum amount
      * or until some timeout is reached) and messages for the same correlation
      * key are combined together using some kind of {@link AggregationStrategy}
@@ -724,8 +724,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      *
      * @param correlationExpression the expression used to calculate the
      *                              correlation key. For a JMS message this could be the
-     *                              expression <code>header(""JMSDestination"")</code> or
-     *                              <code>header(""JMSCorrelationID"")</code>
+     *                              expression <code>header("JMSDestination")</code> or
+     *                              <code>header("JMSCorrelationID")</code>
      */
     public AggregatorType aggregator(Expression correlationExpression) {
         AggregatorType answer = new AggregatorType(correlationExpression);
@@ -735,7 +735,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates an <a
-     * href=""http://activemq.apache.org/camel/aggregator.html"">Aggregator</a>
+     * href="http://activemq.apache.org/camel/aggregator.html">Aggregator</a>
      * pattern where a batch of messages are processed (up to a maximum amount
      * or until some timeout is reached) and messages for the same correlation
      * key are combined together using some kind of {@link AggregationStrategy}
@@ -750,8 +750,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      *
      * @param correlationExpression the expression used to calculate the
      *                              correlation key. For a JMS message this could be the
-     *                              expression <code>header(""JMSDestination"")</code> or
-     *                              <code>header(""JMSCorrelationID"")</code>
+     *                              expression <code>header("JMSDestination")</code> or
+     *                              <code>header("JMSCorrelationID")</code>
      */
     public AggregatorType aggregator(Expression correlationExpression, AggregationStrategy aggregationStrategy) {
         AggregatorType answer = new AggregatorType(correlationExpression, aggregationStrategy);
@@ -761,7 +761,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/delayer.html"">Delayer</a> pattern
+     * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where an expression is used to calculate the time which the message will
      * be dispatched on
      *
@@ -775,7 +775,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/delayer.html"">Delayer</a> pattern
+     * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where an expression is used to calculate the time which the message will
      * be dispatched on
      *
@@ -794,7 +794,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/delayer.html"">Delayer</a> pattern
+     * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where an expression is used to calculate the time which the message will
      * be dispatched on
      * @return the expression clause to create the expression
@@ -807,7 +807,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/delayer.html"">Delayer</a> pattern
+     * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where a fixed amount of milliseconds are used to delay processing of a
      * message exchange
      *
@@ -820,7 +820,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Creates the <a
-     * href=""http://activemq.apache.org/camel/delayer.html"">Delayer</a> pattern
+     * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where an expression is used to calculate the time which the message will
      * be dispatched on
      *
@@ -911,7 +911,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
         if (currentProcessor instanceof InterceptType) {
             proceed = ((InterceptType) currentProcessor).getProceed();
-            LOG.info(""proceed() is the implied and hence not needed for an intercept()"");
+            LOG.info("proceed() is the implied and hence not needed for an intercept()");
         }
         if (proceed == null) {
             for (ProcessorType node = parent; node != null; node = node.getParent()) {
@@ -923,7 +923,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
             }
 
             if (proceed == null) {
-                throw new IllegalArgumentException(""Cannot use proceed() without being within an intercept() block"");
+                throw new IllegalArgumentException("Cannot use proceed() without being within an intercept() block");
             }
 
         }
@@ -946,7 +946,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
                 }
             }
             if (node == null) {
-                throw new IllegalArgumentException(""Cannot use stop() without being within an intercept() block"");
+                throw new IllegalArgumentException("Cannot use stop() without being within an intercept() block");
             }
         }
 
@@ -1480,7 +1480,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
         return value == null || value.booleanValue();
     }
 
-    @XmlAttribute(name = ""inheritErrorHandler"", required = false)
+    @XmlAttribute(name = "inheritErrorHandler", required = false)
     public Boolean getInheritErrorHandlerFlag() {
         return inheritErrorHandlerFlag;
     }
@@ -1505,7 +1505,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * Returns a label to describe this node such as the expression if some kind of expression node
      */
     public String getLabel() {
-        return """";
+        return "";
     }
 
     // Implementation methods
@@ -1531,7 +1531,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     protected Processor wrapProcessorInInterceptors(RouteContext routeContext, Processor target) throws Exception {
         // The target is required.
         if (target == null) {
-            throw new RuntimeCamelException(""target not provided."");
+            throw new RuntimeCamelException("target not provided.");
         }
 
         List<InterceptStrategy> strategies = new ArrayList<InterceptStrategy>();
@@ -1560,10 +1560,10 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
             if (!interceptors.contains(interceptor)) {
                 interceptors.add(interceptor);
                 if (interceptor.getProcessor() != null) {
-                    LOG.warn(""Interceptor "" + interceptor + "" currently wraps target ""
+                    LOG.warn("Interceptor " + interceptor + " currently wraps target "
                             + interceptor.getProcessor()
-                            + "" is attempting to change target "" + target
-                            + "" new wrapping has been denied."");
+                            + " is attempting to change target " + target
+                            + " new wrapping has been denied.");
                 } else {
                     interceptor.setProcessor(target);
                     target = interceptor;
@@ -1580,7 +1580,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     protected Processor wrapInErrorHandler(RouteContext routeContext, Processor target) throws Exception {
         // The target is required.
         if (target == null) {
-            throw new RuntimeCamelException(""target not provided."");
+            throw new RuntimeCamelException("target not provided.");
         }
 
         ErrorHandlerWrappingStrategy strategy = routeContext.getErrorHandlerWrappingStrategy();

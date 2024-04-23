@@ -7,3 +7,6 @@ tensorflow
 keras
 scikit-learn
 tensorboard
+markdownify
+selenium
+webdriver-manager
