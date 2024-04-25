@@ -57,6 +57,7 @@ class LSPClient:
             "--add-opens", "java.base/java.lang=ALL-UNNAMED"
         ], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
+        self.alive = True
         self.thread = Thread(target=self.read_messages)
         self.thread.start()
 
@@ -64,31 +65,43 @@ class LSPClient:
         self.diagnostics = []
         self.symbols = []
         self.foldings = []
+        self.read_handlers = {}
+        self.responses = {}
+
+        self.message_id = 0
 
         self.initialize()
 
-    def send_message(self, request):
-        request_json = json.dumps(request)
-        content_length = len(request_json.encode('utf-8'))
-        full_message = f"Content-Length: {content_length}\r\n\r\n{request_json}"
-        self.process.stdin.write(full_message.encode('utf-8'))
-        self.process.stdin.flush()
+    def read_response(self, message_id):
+        timeout = 10
+        start_time = time.time()
+        while (time.time() - start_time) < timeout:
+            if response := self.responses.get(message_id):
+                return response
+            time.sleep(0.5)
+        return None
 
-    def send_message(self, method, params, message_id):
+    def send_message(self, method, params, handler=None):
+        self.message_id += 1
         request = {
             "jsonrpc": "2.0",
-            "id": message_id,
+            "id": self.message_id,
             "method": method,
             "params": params
         }
         request_json = json.dumps(request)
         content_length = len(request_json.encode('utf-8'))
         full_message = f"Content-Length: {content_length}\r\n\r\n{request_json}"
+
+        self.read_handlers[self.message_id] = handler
+
         self.process.stdin.write(full_message.encode('utf-8'))
         self.process.stdin.flush()
 
+        return self.read_response(self.message_id)
+
     def read_messages(self):
-        while True:
+        while self.alive:
             content_length = 0
             header = self.process.stdout.readline().decode('utf-8').strip()
             if header.startswith('Content-Length'):
@@ -101,27 +114,46 @@ class LSPClient:
                 self.handle_message(message)
 
     def handle_message(self, message):
+        open("response.jsonl", "a").write(json.dumps(message, indent=4))
+
         if "method" in message and message["method"] == "textDocument/publishDiagnostics":
             self.handle_diagnostics(message["params"]["diagnostics"])
-        elif "result" in message and "id" in message:
-            if message["id"] == 3:  # Assuming ID 3 is used for documentSymbol and foldingRange requests
-                self.handle_document_symbols(message["result"])
-            elif message["id"] == 4:  # Assuming ID 4 is used for foldingRange requests
-                self.handle_folding_ranges(message["result"])
-            else:
-                open("response.jsonl", "a").write(
-                    json.dumps(message, indent=4))
-        else:
-            open("error.jsonl", "a").write(json.dumps(message, indent=4))
+        elif "id" in message:
+            if "error" in message:
+                self.responses[message["id"]] = None
+            elif "result" in message:
+                response = None
+                if read_handler := self.read_handlers.get(message["id"]):
+                    response = read_handler(message["result"])
+                else:
+                    response = message["result"]
+                self.responses[message["id"]] = response
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.alive = False
+        time.sleep(5)
+        self.process.kill()
 
     def handle_diagnostics(self, diagnostics):
         self.diagnostics.extend(diagnostics)
 
     def handle_document_symbols(self, symbols):
+
+        functions = []
+        for symbol in symbols:
+            if symbol["kind"] == 6:
+                functions.append(symbol)
+
         self.symbols.extend(symbols)
+
+        return functions
 
     def handle_folding_ranges(self, foldings):
         self.foldings.extend(foldings)
+        return foldings
 
     def start(self):
         thread = Thread(target=self.read_messages)
@@ -133,7 +165,7 @@ class LSPClient:
             "processId": None,
             "rootUri": self.root_uri,
             "capabilities": {}
-        }, 1)
+        })
         time.sleep(2)  # Wait for server to initialize
 
     def open_document(self, document_path):
@@ -147,84 +179,90 @@ class LSPClient:
                 "version": 1,
                 "text": text
             }
-        }, 2)
+        })
 
     def request_document_symbols(self, document_path):
         document_path = convert_to_uri(self.root_uri, document_path)
-        self.send_message("textDocument/documentSymbol", {
+        return self.send_message("textDocument/documentSymbol", {
             "textDocument": {"uri": document_path}
-        }, 3)
+        }, self.handle_document_symbols)
 
     def request_code_folding(self, document_path):
         document_path = convert_to_uri(self.root_uri, document_path)
-        self.send_message("textDocument/foldingRange", {
+        return self.send_message("textDocument/foldingRange", {
             "textDocument": {"uri": document_path}
-        }, 4)
+        }, self.handle_folding_ranges)
 
     def request_call_hierarchy(self, document_path, position):
         document_path = convert_to_uri(self.root_uri, document_path)
-        self.send_message("textDocument/prepareCallHierarchy", {
+        return self.send_message("textDocument/prepareCallHierarchy", {
             "textDocument": {"uri": document_path},
             "position": position
-        }, 5)
+        })
 
-        self.send_message("callHierarchy/incomingCalls", {
-            "item": {
-                "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
-                "detail": "org.apache.camel.model.ProcessorType",
-                "kind": 6,
-                "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
-                "range": {
-                    "start": {
-                        "line": 1522,
-                        "character": 4
-                    },
-                    "end": {
-                        "line": 1573,
-                        "character": 5
-                    }
-                },
-                "selectionRange": {
-                    "start": {
-                        "line": 1530,
-                        "character": 24
-                    },
-                    "end": {
-                        "line": 1530,
-                        "character": 51
-                    }
-                }
-            }
-        }, 6)
+        # self.send_message("callHierarchy/incomingCalls", {
+        #     "item": {
+        #         "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
+        #         "detail": "org.apache.camel.model.ProcessorType",
+        #         "kind": 6,
+        #         "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
+        #         "range": {
+        #             "start": {
+        #                 "line": 1522,
+        #                 "character": 4
+        #             },
+        #             "end": {
+        #                 "line": 1573,
+        #                 "character": 5
+        #             }
+        #         },
+        #         "selectionRange": {
+        #             "start": {
+        #                 "line": 1530,
+        #                 "character": 24
+        #             },
+        #             "end": {
+        #                 "line": 1530,
+        #                 "character": 51
+        #             }
+        #         }
+        #     }
+        # }, 6)
 
-        self.send_message("callHierarchy/outgoingCalls", {
-            "item": {
-                "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
-                "detail": "org.apache.camel.model.ProcessorType",
-                "kind": 6,
-                "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
-                "range": {
-                    "start": {
-                        "line": 1522,
-                        "character": 4
-                    },
-                    "end": {
-                        "line": 1573,
-                        "character": 5
-                    }
-                },
-                "selectionRange": {
-                    "start": {
-                        "line": 1530,
-                        "character": 24
-                    },
-                    "end": {
-                        "line": 1530,
-                        "character": 51
-                    }
-                }
-            }
-        }, 7)
+        # self.send_message("callHierarchy/outgoingCalls", {
+        #     "item": {
+        #         "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
+        #         "detail": "org.apache.camel.model.ProcessorType",
+        #         "kind": 6,
+        #         "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
+        #         "range": {
+        #             "start": {
+        #                 "line": 1522,
+        #                 "character": 4
+        #             },
+        #             "end": {
+        #                 "line": 1573,
+        #                 "character": 5
+        #             }
+        #         },
+        #         "selectionRange": {
+        #             "start": {
+        #                 "line": 1530,
+        #                 "character": 24
+        #             },
+        #             "end": {
+        #                 "line": 1530,
+        #                 "character": 51
+        #             }
+        #         }
+        #     }
+        # }, 7)
+
+    def get_function_blocks(self, document_path):
+        document_path = convert_to_uri(self.root_uri, document_path)
+        self.open_document(document_path)
+        funcs = self.request_document_symbols(document_path)
+        print(funcs)
 
 
 if __name__ == "__main__":
@@ -233,23 +271,6 @@ if __name__ == "__main__":
     open("error.jsonl", "w").close()
 
     lsp_server_path = "/home/ferrero/files/Downloads/eclipse.jdt.ls-1.30.1/org.eclipse.jdt.ls.product/target/repository"
-    root_uri = "fold"
-    client = LSPClient(lsp_server_path, root_uri)
-
-    client.open_document("ori.java")
-    client.request_document_symbols("ori.java")
-    client.request_code_folding("ori.java")
-
-    time.sleep(5)  # Allow time for responses
-
-    print('-'*100)
-    print("Diagnostics:", client.diagnostics)
-    print('-'*100)
-    print("Foldings:", client.foldings)
-    print('-'*100)
-    print("Symbols:", client.symbols)
-    print('-'*100)
-
-    print('-'*100)
-
-    client.request_call_hierarchy("ori.java", {"line": 109, "character": 20})
+    root_uri = "./"
+    with LSPClient(lsp_server_path, root_uri) as client:
+        client.get_function_blocks("ori.java")
