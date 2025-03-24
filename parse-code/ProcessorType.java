@@ -85,7 +85,6 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     // else to use an optional attribute in JAXB2
     public abstract List<ProcessorType<?>> getOutputs();
 
-
     public Processor createProcessor(RouteContext routeContext) throws Exception {
         throw new UnsupportedOperationException("Not implemented yet for class: " + getClass().getName());
     }
@@ -178,9 +177,11 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * Multicasts messages to all its child outputs; so that each processor and
      * destination gets a copy of the original message to avoid the processors
      * interfering with each other.
+     * 
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
-     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call the endpoint producer
+     *                            every part
+     * @param parallelProcessing  if is <tt>true</tt> camel will fork thread to call
+     *                            the endpoint producer
      * @return the multicast type
      */
     public MulticastType multicast(AggregationStrategy aggregationStrategy, boolean parallelProcessing) {
@@ -195,8 +196,9 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * Multicasts messages to all its child outputs; so that each processor and
      * destination gets a copy of the original message to avoid the processors
      * interfering with each other.
+     * 
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
+     *                            every part
      * @return the multicast type
      */
     public MulticastType multicast(AggregationStrategy aggregationStrategy) {
@@ -341,7 +343,6 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
         return answer;
     }
 
-
     /**
      * Creates a choice of one or more predicates with an otherwise clause
      *
@@ -384,7 +385,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * List</a> pattern.
      *
      * @return the expression clause for the expression used in the
-     *                    {@link RecipientList} to decide the destinations
+     *         {@link RecipientList} to decide the destinations
      */
     public ExpressionClause<ProcessorType<Type>> recipientList() {
         RecipientListType answer = new RecipientListType();
@@ -399,10 +400,13 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * href="http://activemq.apache.org/camel/routing-slip.html">Routing
      * Slip</a> pattern.
      *
-     * @param header is the header that the {@link org.apache.camel.processor.RoutingSlip RoutingSlip}
-     * class will look in for the list of URIs to route the message to.
+     * @param header       is the header that the
+     *                     {@link org.apache.camel.processor.RoutingSlip
+     *                     RoutingSlip}
+     *                     class will look in for the list of URIs to route the
+     *                     message to.
      * @param uriDelimiter is the delimiter that will be used to split up
-     * the list of URIs in the routing slip.
+     *                     the list of URIs in the routing slip.
      */
     public Type routingSlip(String header, String uriDelimiter) {
         RoutingSlipType answer = new RoutingSlipType(header, uriDelimiter);
@@ -415,10 +419,12 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * href="http://activemq.apache.org/camel/routing-slip.html">Routing
      * Slip</a> pattern.
      *
-     * @param header is the header that the {@link org.apache.camel.processor.RoutingSlip RoutingSlip}
-     * class will look in for the list of URIs to route the message to. The list of URIs
-     * will be split based on the default delimiter
-     * {@link RoutingSlipType#DEFAULT_DELIMITER}.
+     * @param header is the header that the
+     *               {@link org.apache.camel.processor.RoutingSlip RoutingSlip}
+     *               class will look in for the list of URIs to route the message
+     *               to. The list of URIs
+     *               will be split based on the default delimiter
+     *               {@link RoutingSlipType#DEFAULT_DELIMITER}.
      */
     public Type routingSlip(String header) {
         RoutingSlipType answer = new RoutingSlipType(header);
@@ -429,7 +435,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     /**
      * Creates a <a
      * href="http://activemq.apache.org/camel/routing-slip.html">Routing
-     * Slip</a> pattern with the default header {@link RoutingSlipType#ROUTING_SLIP_HEADER}.
+     * Slip</a> pattern with the default header
+     * {@link RoutingSlipType#ROUTING_SLIP_HEADER}.
      * The list of URIs in the header will be split based on the default delimiter
      * {@link RoutingSlipType#DEFAULT_DELIMITER}.
      */
@@ -478,9 +485,10 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
-     * @param partsExpression the expression on which to split
+     * 
+     * @param partsExpression     the expression on which to split
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
+     *                            every part
      * @return the builder
      */
     public SplitterType splitter(Expression partsExpression, AggregationStrategy aggregationStrategy) {
@@ -496,8 +504,9 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
+     * 
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
+     *                            every part
      * @return the expression clause for the expression on which to split
      */
     public ExpressionClause<SplitterType> splitter(AggregationStrategy aggregationStrategy) {
@@ -515,8 +524,9 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * This splitter responds with the latest message returned from destination
      * endpoint.
      *
-     * @param receipients the expression on which to split
-     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call the endpoint producer
+     * @param receipients        the expression on which to split
+     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call
+     *                           the endpoint producer
      * @return the builder
      */
     public SplitterType splitter(Expression receipients, boolean parallelProcessing) {
@@ -534,7 +544,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * This splitter responds with the latest message returned from destination
      * endpoint.
      *
-     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call the endpoint producer
+     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call
+     *                           the endpoint producer
      * @return the expression clause for the expression on which to split
      */
     public ExpressionClause<SplitterType> splitter(boolean parallelProcessing) {
@@ -550,10 +561,12 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
-     * @param partsExpression the expression on which to split
+     * 
+     * @param partsExpression     the expression on which to split
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
-     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call the endpoint producer
+     *                            every part
+     * @param parallelProcessing  if is <tt>true</tt> camel will fork thread to call
+     *                            the endpoint producer
      * @return the builder
      */
     public SplitterType splitter(Expression partsExpression,
@@ -571,19 +584,21 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * pattern where an expression is evaluated to iterate through each of the
      * parts of a message and then each part is then send to some endpoint.
      * Answer from the splitter is produced using given {@link AggregationStrategy}
+     * 
      * @param aggregationStrategy the strategy used to aggregate responses for
-     *          every part
-     * @param parallelProcessing if is <tt>true</tt> camel will fork thread to call the endpoint producer
+     *                            every part
+     * @param parallelProcessing  if is <tt>true</tt> camel will fork thread to call
+     *                            the endpoint producer
      * @return the expression clause for the expression on which to split
      */
-    public ExpressionClause<SplitterType> splitter(AggregationStrategy aggregationStrategy, boolean parallelProcessing) {
+    public ExpressionClause<SplitterType> splitter(AggregationStrategy aggregationStrategy,
+            boolean parallelProcessing) {
         SplitterType answer = new SplitterType();
         addOutput(answer);
         answer.setAggregationStrategy(aggregationStrategy);
         answer.setParallelProcessing(parallelProcessing);
         return ExpressionClause.createAndSetExpression(answer);
     }
-
 
     /**
      * Creates the <a
@@ -592,7 +607,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * the message exchanges to reorder them. e.g. you may wish to sort by some
      * headers
      *
-     * @return the expression clause for the expressions on which to compare messages in order
+     * @return the expression clause for the expressions on which to compare
+     *         messages in order
      */
     public ExpressionClause<ResequencerType> resequencer() {
         ResequencerType answer = new ResequencerType();
@@ -660,7 +676,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * A good example of this is stock market data; you may be receiving 30,000
      * messages/second and you may want to throttle it right down so that multiple
      * messages for the same stock are combined (or just the latest message is used
-     * and older prices are discarded). Another idea is to combine line item messages
+     * and older prices are discarded). Another idea is to combine line item
+     * messages
      * together into a single invoice message.
      */
     public ExpressionClause<AggregatorType> aggregator() {
@@ -681,7 +698,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * A good example of this is stock market data; you may be receiving 30,000
      * messages/second and you may want to throttle it right down so that multiple
      * messages for the same stock are combined (or just the latest message is used
-     * and older prices are discarded). Another idea is to combine line item messages
+     * and older prices are discarded). Another idea is to combine line item
+     * messages
      * together into a single invoice message.
      *
      * @param aggregationStrategy the strategy used for the aggregation
@@ -719,12 +737,15 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * A good example of this is stock market data; you may be receiving 30,000
      * messages/second and you may want to throttle it right down so that multiple
      * messages for the same stock are combined (or just the latest message is used
-     * and older prices are discarded). Another idea is to combine line item messages
+     * and older prices are discarded). Another idea is to combine line item
+     * messages
      * together into a single invoice message.
      *
      * @param correlationExpression the expression used to calculate the
-     *                              correlation key. For a JMS message this could be the
-     *                              expression <code>header("JMSDestination")</code> or
+     *                              correlation key. For a JMS message this could be
+     *                              the
+     *                              expression <code>header("JMSDestination")</code>
+     *                              or
      *                              <code>header("JMSCorrelationID")</code>
      */
     public AggregatorType aggregator(Expression correlationExpression) {
@@ -745,12 +766,15 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * A good example of this is stock market data; you may be receiving 30,000
      * messages/second and you may want to throttle it right down so that multiple
      * messages for the same stock are combined (or just the latest message is used
-     * and older prices are discarded). Another idea is to combine line item messages
+     * and older prices are discarded). Another idea is to combine line item
+     * messages
      * together into a single invoice message.
      *
      * @param correlationExpression the expression used to calculate the
-     *                              correlation key. For a JMS message this could be the
-     *                              expression <code>header("JMSDestination")</code> or
+     *                              correlation key. For a JMS message this could be
+     *                              the
+     *                              expression <code>header("JMSDestination")</code>
+     *                              or
      *                              <code>header("JMSCorrelationID")</code>
      */
     public AggregatorType aggregator(Expression correlationExpression, AggregationStrategy aggregationStrategy) {
@@ -782,7 +806,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * @param processAtExpression an expression to calculate the time at which
      *                            the messages should be processed
      * @param delay               the delay in milliseconds which is added to the
-     *                            processAtExpression to determine the time the message
+     *                            processAtExpression to determine the time the
+     *                            message
      *                            should be processed
      * @return the builder
      */
@@ -797,6 +822,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
      * href="http://activemq.apache.org/camel/delayer.html">Delayer</a> pattern
      * where an expression is used to calculate the time which the message will
      * be dispatched on
+     * 
      * @return the expression clause to create the expression
      */
     public ExpressionClause<DelayerType> delayer() {
@@ -832,7 +858,6 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
         return answer;
     }
 
-
     public Type throwFault(Throwable fault) {
         ThrowFaultType answer = new ThrowFaultType();
         answer.setFault(fault);
@@ -845,7 +870,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Intercepts outputs added to this node in the future (i.e. intercepts outputs added after this statement)
+     * Intercepts outputs added to this node in the future (i.e. intercepts outputs
+     * added after this statement)
      */
     public Type interceptor(String ref) {
         InterceptorRef interceptor = new InterceptorRef(ref);
@@ -854,16 +880,18 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Intercepts outputs added to this node in the future (i.e. intercepts outputs added after this statement)
+     * Intercepts outputs added to this node in the future (i.e. intercepts outputs
+     * added after this statement)
      */
     public Type intercept(DelegateProcessor interceptor) {
         intercept(new InterceptorRef(interceptor));
-        //lastInterceptor = interceptor;
+        // lastInterceptor = interceptor;
         return (Type) this;
     }
 
     /**
-     * Intercepts outputs added to this node in the future (i.e. intercepts outputs added after this statement)
+     * Intercepts outputs added to this node in the future (i.e. intercepts outputs
+     * added after this statement)
      */
     public InterceptType intercept() {
         InterceptType answer = new InterceptType();
@@ -872,7 +900,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Intercepts outputs added to this node in the future (i.e. intercepts outputs added after this statement)
+     * Intercepts outputs added to this node in the future (i.e. intercepts outputs
+     * added after this statement)
      */
     public void intercept(InterceptorType interceptor) {
         addOutput(interceptor);
@@ -916,7 +945,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
         if (proceed == null) {
             for (ProcessorType node = parent; node != null; node = node.getParent()) {
                 if (node instanceof InterceptType) {
-                    InterceptType intercept = (InterceptType)node;
+                    InterceptType intercept = (InterceptType) node;
                     proceed = intercept.getProceed();
                     break;
                 }
@@ -1061,7 +1090,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Adds the custom processor reference to this destination which could be a final
+     * Adds the custom processor reference to this destination which could be a
+     * final
      * destination, or could be a transformation in a pipeline
      */
     public Type processRef(String ref) {
@@ -1095,7 +1125,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Adds a bean by type which is invoked which could be a final destination, or could
+     * Adds a bean by type which is invoked which could be a final destination, or
+     * could
      * be a transformation in a pipeline
      */
     public Type bean(Class beanType) {
@@ -1159,7 +1190,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     /**
      * Adds a processor which sets the body on the OUT message
      *
-     * @deprecated Please use {@link #transform(Expression)} instead. Will be removed in Camel 2.0.
+     * @deprecated Please use {@link #transform(Expression)} instead. Will be
+     *             removed in Camel 2.0.
      */
     @Deprecated
     public Type setOutBody(Expression expression) {
@@ -1169,7 +1201,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     /**
      * Adds a processor which sets the body on the OUT message
      *
-     * @deprecated Please use {@link #transform()} instead. Will be removed in Camel 2.0.
+     * @deprecated Please use {@link #transform()} instead. Will be removed in Camel
+     *             2.0.
      */
     @Deprecated
     public ExpressionClause<ProcessorType<Type>> setOutBody() {
@@ -1267,7 +1300,6 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
         return process(ProcessorBuilder.setProperty(name, expression));
     }
 
-
     /**
      * Adds a processor which sets the exchange property
      */
@@ -1316,7 +1348,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     /**
      * Converts the OUT message body to the specified type
      *
-     * @deprecated Please use {@link #convertBodyTo(Class)} instead. Will be removed in Camel 2.0.
+     * @deprecated Please use {@link #convertBodyTo(Class)} instead. Will be removed
+     *             in Camel 2.0.
      */
     @Deprecated
     public Type convertOutBodyTo(Class type) {
@@ -1326,7 +1359,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     /**
      * Converts the FAULT message body to the specified type
      *
-     * @deprecated Please use {@link #convertBodyTo(Class)} instead. Will be removed in Camel 2.0.
+     * @deprecated Please use {@link #convertBodyTo(Class)} instead. Will be removed
+     *             in Camel 2.0.
      */
     @Deprecated
     public Type convertFaultBodyTo(Class type) {
@@ -1338,7 +1372,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Unmarshals the in body using a {@link DataFormat} expression to define
-     * the format of the input message and the output will be set on the out message body.
+     * the format of the input message and the output will be set on the out message
+     * body.
      *
      * @return the expression to create the {@link DataFormat}
      */
@@ -1369,7 +1404,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Unmarshals the in body using the specified {@link DataFormat}
-     * reference in the {@link Registry} and sets the output on the out message body.
+     * reference in the {@link Registry} and sets the output on the out message
+     * body.
      *
      * @return this object
      */
@@ -1411,7 +1447,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
 
     /**
      * Marshals the in body the specified {@link DataFormat}
-     * reference in the {@link Registry} and sets the output on the out message body.
+     * reference in the {@link Registry} and sets the output on the out message
+     * body.
      *
      * @return this object
      */
@@ -1502,7 +1539,8 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     /**
-     * Returns a label to describe this node such as the expression if some kind of expression node
+     * Returns a label to describe this node such as the expression if some kind of
+     * expression node
      */
     public String getLabel() {
         return "";
@@ -1629,7 +1667,7 @@ public abstract class ProcessorType<Type extends ProcessorType> extends Optional
     }
 
     protected Processor createOutputsProcessor(RouteContext routeContext, Collection<ProcessorType<?>> outputs)
-        throws Exception {
+            throws Exception {
         List<Processor> list = new ArrayList<Processor>();
         for (ProcessorType output : outputs) {
             Processor processor = output.createProcessor(routeContext);

@@ -1,0 +1,36 @@
+{
+    "name": "createOutputsProcessor(RouteContext, Collection<ProcessorType<?>>)",
+    "kind": 6,
+    "location": {
+        "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/ori.java",
+        "range": {
+            "start": {
+                "line": 1630,
+                "character": 24
+            },
+            "end": {
+                "line": 1630,
+                "character": 46
+            }
+        }
+    },
+    "containerName": "ProcessorType"
+},
+{
+    "name": "clearOutput()",
+    "kind": 6,
+    "location": {
+        "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/ori.java",
+        "range": {
+            "start": {
+                "line": 1655,
+                "character": 16
+            },
+            "end": {
+                "line": 1655,
+                "character": 27
+            }
+        }
+    },
+    "containerName": "ProcessorType"
+}

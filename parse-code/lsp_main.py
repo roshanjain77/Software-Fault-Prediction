@@ -1,11 +1,11 @@
-import subprocess
 import json
-import time
-from threading import Thread
-
 import os
-from urllib.parse import urljoin, urlparse
+import subprocess
+import time
+from functools import lru_cache
 from pathlib import Path
+from threading import Thread
+from urllib.parse import urljoin, urlparse
 
 
 def convert_to_uri(root_uri, path):
@@ -200,75 +200,38 @@ class LSPClient:
             "position": position
         })
 
-        # self.send_message("callHierarchy/incomingCalls", {
-        #     "item": {
-        #         "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
-        #         "detail": "org.apache.camel.model.ProcessorType",
-        #         "kind": 6,
-        #         "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
-        #         "range": {
-        #             "start": {
-        #                 "line": 1522,
-        #                 "character": 4
-        #             },
-        #             "end": {
-        #                 "line": 1573,
-        #                 "character": 5
-        #             }
-        #         },
-        #         "selectionRange": {
-        #             "start": {
-        #                 "line": 1530,
-        #                 "character": 24
-        #             },
-        #             "end": {
-        #                 "line": 1530,
-        #                 "character": 51
-        #             }
-        #         }
-        #     }
-        # }, 6)
+    @lru_cache(maxsize=100)
+    def read_file(self, document_path):
+        document_path = convert_to_uri(self.root_uri, document_path)
+        return open(Path(document_path.replace("file://", ""))).readlines()
 
-        # self.send_message("callHierarchy/outgoingCalls", {
-        #     "item": {
-        #         "name": "wrapProcessorInInterceptors(RouteContext, Processor) : Processor",
-        #         "detail": "org.apache.camel.model.ProcessorType",
-        #         "kind": 6,
-        #         "uri": "file:///home/ferrero/Desktop/Projects/Academic/Software-Fault-Prediction/parse-code/fold/ori.java",
-        #         "range": {
-        #             "start": {
-        #                 "line": 1522,
-        #                 "character": 4
-        #             },
-        #             "end": {
-        #                 "line": 1573,
-        #                 "character": 5
-        #             }
-        #         },
-        #         "selectionRange": {
-        #             "start": {
-        #                 "line": 1530,
-        #                 "character": 24
-        #             },
-        #             "end": {
-        #                 "line": 1530,
-        #                 "character": 51
-        #             }
-        #         }
-        #     }
-        # }, 7)
+    def extract_function(self, document_path, start_line, end_line):
+        lines = self.read_file(document_path)
+        function = "\n".join(lines[start_line:end_line+1])
+        return function
 
     def get_function_blocks(self, document_path):
         document_path = convert_to_uri(self.root_uri, document_path)
         self.open_document(document_path)
-        funcs = self.request_document_symbols(document_path)
-        print(funcs)
+        functions = self.request_document_symbols(document_path)
+        for function in functions:
+            response = self.request_call_hierarchy(document_path,
+                                                   function['location']['range']['start'])
+
+            assert len(response) == 1, "Expected only one response."
+            response = response[0]
+            definition = response['name']
+            start_line = response['range']['start']['line']
+            end_line = response['range']['end']['line']
+
+            print(definition)
+            print(self.extract_function(document_path, start_line, end_line))
+            print('-'*100)
 
 
 if __name__ == "__main__":
 
     open("response.jsonl", "w").close()
-    open("error.jsonl", "w").close()
 
     lsp_server_path = "/home/ferrero/files/Downloads/eclipse.jdt.ls-1.30.1/org.eclipse.jdt.ls.product/target/repository"
     root_uri = "./"
